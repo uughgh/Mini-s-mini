@@ -1,0 +1,24 @@
+import android.util.Log
+import android.widget.TextView
+import org.json.JSONObject
+
+// ... inside your Activity or Fragment ...
+
+fun displayComponentInfo(componentName: String, textView: TextView) {
+    val nameResId = when (componentName) {
+        "plugin_manager" -> R.string.plugin_manager_name
+        "permission_broker" -> R.string.permission_broker_name
+        else -> R.string.app_name // Default
+    }
+    val descriptionResId = when (componentName) {
+        "plugin_manager" -> R.string.plugin_manager_description
+        "permission_broker" -> R.string.permission_broker_description
+        else -> R.string.app_name // Default
+    }
+
+    textView.text = "${getString(nameResId)}: ${getString(descriptionResId)}"
+}
+
+// Example Usage
+val myTextView = findViewById<TextView>(R.id.my_text_view) // Replace with your TextView's ID
+displayComponentInfo("plugin_manager", myTextView)

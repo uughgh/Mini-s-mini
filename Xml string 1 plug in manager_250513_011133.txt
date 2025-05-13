@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mini AI Host</string>
+
+    <string name="plugin_manager_name">Plugin Manager</string>
+    <string name="plugin_manager_description">Manages and loads plugins for extending functionality.</string>
+
+    <string name="permission_broker_name">Permission Broker</string>
+    <string name="permission_broker_description">Handles Android permission requests and checks.</string>
+
+    <string name="plugin_device_data_collector">Device Data</string>
+    <string name="plugin_device_data_collector_description">Gathers information about the device's state and capabilities.</string>
+    <string name="plugin_permission_manager">Permissions</string>
+    <string name="plugin_permission_manager_description">Manages runtime permissions for the application.</string>
+    <string name="plugin_mini_ai_bridge">AI Bridge</string>
+    <string name="plugin_mini_ai_bridge_description">Connects the application to the core Mini AI system.</string>
+
+    <string name="algorithm_send_event">Send Event</string>
+    <string name="algorithm_send_event_description">Sends data to the Mini AI for processing.</string>
+
+    <string name="plugin_status_enabled">Enabled</string>
+    <string name="plugin_status_disabled">Disabled</string>
+    <string name="button_enable">Enable</string>
+    <string name="button_disable">Disable</string>
+
+</resources>
